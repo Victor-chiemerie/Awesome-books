@@ -60,11 +60,10 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Awesome Books] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+**[Awesome books]** is a project designed to store, add and delete books;
 
-**[your_project__name]** is a...
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -99,9 +98,13 @@ After you're finished please remove all the comments and instructions!
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[Create a collection that keeps a list of books]**
+- **[Create a function to add a new book to the collection]**
+- **[Display all books saved in the collection in the top part of the page]**
+- **[When a user clicks the "Add" button, a new book is added to the collection]**
+- **[When a user clicks the "Remove" button,the correct book is removed from the collection.]**
+- **[The data is preserved in the browser's memory by using localStorage]**
+- **[see more guest speakers on clicking see more]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -111,7 +114,7 @@ After you're finished please remove all the comments and instructions!
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://victor-chiemerie.github.io/Awesome-books/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -207,15 +210,16 @@ Example:
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/Victor-chiemerie)
+- Twitter: [@twitterhandle](https://twitter.com/VictorChiemer20)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/victor-chiemerie-460475246/)
 
-👤 **Author2**
+ **Author 2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Donmark2k](https://github.com/Donmark2k)
+- Twitter: [@Donmark2k](https://twitter.com/donmark2k)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/chukwuemeka-ochuba/)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -223,11 +227,6 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -255,7 +254,7 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
+I would like to appreciate my coding partner [Chukwuemeka Ochuba]
 
 I would like to thank...
 
@@ -281,8 +280,6 @@ I would like to thank...
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This project is [MIT](MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
