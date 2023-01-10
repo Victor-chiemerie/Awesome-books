@@ -1,61 +1,61 @@
-const domBooklist = document.querySelector('ul');
-const inputTitle = document.querySelector('#title');
-const inputAuthor = document.querySelector('#author');
-const buttonAdd = document.querySelector('.btn-success');
+const booklist = document.querySelector('#booklist');
+const inputTitle = document.getElementById('title');
+const inputAuthor = document.getElementById('author');
+const buttonAdd = document.getElementById('add_button');
 
-const stringBookList = localStorage.getItem('booklist');
+const stringShelf = localStorage.getItem('shelf');
 
-let bookList = [];
+let shelf = [];
 
-// if (stringBookList) {
-//     const parsedBookList = JSON.parse(stringBookList);
-//     if (Array.isArray(parsedBookList)) {
-//       bookList = parsedBookList;
-//     }
-//   }
+if (stringShelf) {
+    const parsedShelf = JSON.parse(stringShelf);
+    if (parsedShelf !== null) {
+        shelf = parsedShelf;
+    }
+}
 
 function removeBook(index) {
-    bookList.splice(index, 1);
+    shelf.splice(index, 1);
+    printBooks();
 }
 
 function printBooks() {
+
     let innerhtml = '';
 
-    bookList.forEach((book, index) => {
+    shelf.forEach((book, index) => {
         innerhtml += `
         <li>
             <h3>${book.title}</h3>
             <p>${book.author}</p>
-            <button id="remove_btn_${index}">Remove</button>
+            <button id="remove-btn${index}">Remove</button>
         </li>
         `;
     });
 
-    domBooklist.innerHTML = innerhtml;
+    booklist.innerHTML = innerhtml;
 
-    bookList.forEach((book, index) => {
-        const removeBtn = document.querySelector(`#remove_btn_${index}`);
+    shelf.forEach((book, index) => {
+        const removeBtn = document.getElementById(`remove-btn${index}`);
         removeBtn.addEventListener('click', () => {
             removeBook(index);
             printBooks();
         });
     });
 
-    localStorage.setItem('booklist', JSON.stringify(bookList));
-}
-
+    localStorage.setItem('shelf', JSON.stringify(shelf));
+    
+};
 printBooks();
 
-function addBooks(title, author) {
-    if (title && author) {
-        bookList.push({title, author});
-        printBooks();
-    }
+function addBook(title, author) {
+    shelf.push({title, author});
+    printBooks();
 }
 
 buttonAdd.addEventListener('click', (event) => {
     event.preventDefault();
-    addBooks(inputTitle.value, inputAuthor.value);
+    addBook(inputTitle.value, inputAuthor.value);
 
     inputTitle.value = '';
     inputAuthor.value = '';
