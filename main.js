@@ -1,11 +1,35 @@
+let shelf = [];
+
+class books {
+    constructor(title, author) {
+        this.title = title;
+        this.author = author;
+    }
+}
+
+class library {
+    addBook(Booktitle, Bookauthor) {
+        if (Booktitle && Bookauthor) {
+            const newBook = new books(Booktitle, Bookauthor)
+            shelf.push(newBook)
+            console.log('worked')
+        } else {
+            console.log('Null string')
+        }
+    }
+
+    removeBook(index) {
+        shelf.splice(index, 1);
+    }
+}
+
 const booklist = document.querySelector('#booklist');
 const inputTitle = document.getElementById('title');
 const inputAuthor = document.getElementById('author');
 const buttonAdd = document.getElementById('add_button');
 
 const stringShelf = localStorage.getItem('shelf');
-
-let shelf = [];
+const obj = new library();
 
 if (stringShelf) {
   const parsedShelf = JSON.parse(stringShelf);
@@ -19,26 +43,20 @@ function printBooks() {
 
   shelf.forEach((book, index) => {
     innerhtml += `
-        <div>
-            <p>${book.title}</p>
-            <p>${book.author}</p>
-            <button id="remove-btn${index}">Remove</button>
+    <div>
+        <p>"${book.title}" by ${book.author} </p>
+        <button id="remove-btn${index}">Remove</button>
+            </div>
             <hr>
-        </div>
         `;
   });
 
   booklist.innerHTML = innerhtml;
 
-  function removeBook(index) {
-    shelf.splice(index, 1);
-    printBooks();
-  }
-
   shelf.forEach((book, index) => {
     const removeBtn = document.getElementById(`remove-btn${index}`);
     removeBtn.addEventListener('click', () => {
-      removeBook(index);
+      obj.removeBook(index);
       printBooks();
     });
   });
@@ -48,16 +66,10 @@ function printBooks() {
 
 printBooks();
 
-function addBook(title, author) {
-  if (title && author) {
-    shelf.push({ title, author });
-    printBooks();
-  }
-}
-
 buttonAdd.addEventListener('click', (event) => {
   event.preventDefault();
-  addBook(inputTitle.value, inputAuthor.value);
+  obj.addBook(inputTitle.value, inputAuthor.value);
+  printBooks();
 
   inputTitle.value = '';
   inputAuthor.value = '';
