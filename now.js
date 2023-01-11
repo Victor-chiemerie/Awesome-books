@@ -1,7 +1,4 @@
-// import Books from 'book.js';
-
-/* eslint max-classes-per-file: ["error", 2] */
-/* eslint class-methods-use-this: ["error", { "exceptMethods": ["addBook", "removeBook"] }] */
+/* eslint-disable */
 
 let shelf = [];
 

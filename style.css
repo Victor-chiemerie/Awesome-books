@@ -23,7 +23,7 @@ ul {
   width: 100%;
 }
 
-ul div{
+ul div {
   display: flex;
   justify-content: space-between;
   padding: 5px 10px;
@@ -33,6 +33,7 @@ ul div{
 button {
   border: 2px solid black;
   padding: 5px;
+  box-shadow: 2px 2px black;
 }
 
 form {
@@ -48,6 +49,15 @@ form button {
 
 input {
   width: 250px;
+}
+
+ul div:nth-child(odd) {
+  background: rgba(245, 239, 230, 1);
+}
+
+.line {
+  border: 1px solid black;
+  width: 100px;
 }
 
 @media only screen and (min-width: 786px) {

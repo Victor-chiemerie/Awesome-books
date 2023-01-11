@@ -104,7 +104,9 @@ After you're finished please remove all the comments and instructions!
 - **[When a user clicks the "Add" button, a new book is added to the collection]**
 - **[When a user clicks the "Remove" button,the correct book is removed from the collection.]**
 - **[The data is preserved in the browser's memory by using localStorage]**
-- **[see more guest speakers on clicking see more]**
+- **[Use JavaScript classes instead of objects and arrays]**
+- **[You can use objects and arrays, but do it inside classes]**
+- **[Create class methods to add and remove books]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -254,7 +256,7 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to appreciate my coding partner [Chukwuemeka Ochuba]
+I would like to appreciate my coding partner [Chukwuemeka Ochuba](https://github.com/Donmark2k)
 
 I would like to thank...
 
