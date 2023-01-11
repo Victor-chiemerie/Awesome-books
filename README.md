@@ -96,7 +96,6 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
 
 - **[Create a collection that keeps a list of books]**
 - **[Create a function to add a new book to the collection]**
@@ -104,7 +103,9 @@ After you're finished please remove all the comments and instructions!
 - **[When a user clicks the "Add" button, a new book is added to the collection]**
 - **[When a user clicks the "Remove" button,the correct book is removed from the collection.]**
 - **[The data is preserved in the browser's memory by using localStorage]**
-- **[see more guest speakers on clicking see more]**
+- **[Use JavaScript classes instead of objects and arrays]**
+- **[You can use objects and arrays, but do it inside classes]**
+- **[Create class methods to add and remove books]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -128,8 +129,11 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need:
+- In order to run this project you need:
 
+- [git](https://git-scm.com/downloads): A tool for managing source code
+- [Visual Studio Code](https://code.visualstudio.com/): A source code editor
+- [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer): A simple web server utility for Visual Studio Code
 <!--
 Example command:
 
@@ -141,32 +145,40 @@ Example command:
 ### Setup
 
 Clone this repository to your desired folder:
+https://github.com/victor-chiemerie/Awesome-books.git
 
-<!--
+
 Example commands:
 
 ```sh
   cd my-folder
   git clone git@github.com:myaccount/my-project.git
 ```
---->
 
 ### Install
 
 Install this project with:
+- cd my-folder
+-  git clone https://github.com/victor-chiemerie/Awesome-books.git
 
-<!--
+install npx
+
 Example command:
 
 ```sh
   cd my-project
-  gem install
+  npx install
 ```
+<<<<<<< HEAD
+=======
 --->
 
 ### Usage
 
 To run the project, execute the following command:
+- Open the cloned folder on the VS code
+- Open the live server
+
 
 <!--
 Example command:
@@ -179,6 +191,8 @@ Example command:
 ### Run tests
 
 To run tests, run the following command:
+- To check for stylelint errors, run npx stylelint "**/*.css{css,scss}".
+- To check for javascript error, run npx eslint .
 
 <!--
 Example command:
@@ -187,11 +201,16 @@ Example command:
   bin/rails test test/models/article_test.rb
 ```
 --->
+>>>>>>> 1746d6bde605bb2d2188e8431d4bdbb377364a5d
 
 ### Deployment
 
 You can deploy this project using:
+- Github pages
 
+Github pages
+
+<p>follow <a href="https://www.w3schools.com/git/git_remote_pages.asp?remote=github">these steps</a> for example</p>
 <!--
 Example:
 
@@ -254,7 +273,7 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to appreciate my coding partner [Chukwuemeka Ochuba]
+I would like to appreciate my coding partner [Chukwuemeka Ochuba](https://github.com/Donmark2k)
 
 I would like to thank...
 

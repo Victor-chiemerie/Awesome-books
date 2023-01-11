@@ -6,26 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Awesome Books</title>
     <script src="main.js" defer></script>
+    <script defer src="book.js"></script>
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
     <h1>Awesome books</h1>
-    <ul id="booklist"></ul>
+    <ul id="booklist"></ul> 
+<div class="line"></div>    
     <form action="">
+        <h2>Add a new Book</h2>
         <div>
       <input required
         type="text"
-        id="author"
-        name="author"
+        id="title"
+        name="title"
         placeholder="Title"/>
     </div>
     <div>
       <input
       required
         type="text"
-        id="title"
-        name="title"
+        id="author"
+        name="author"
         placeholder="Author"/>
     </div>
       <button id="add_button">Add</button>
