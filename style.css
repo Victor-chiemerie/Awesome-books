@@ -37,6 +37,10 @@ form {
   align-items: center;
 }
 
+form button {
+  align-self: flex-end;
+}
+
 input {
   width: 250px;
 }
