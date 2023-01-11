@@ -96,7 +96,6 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
 
 - **[Create a collection that keeps a list of books]**
 - **[Create a function to add a new book to the collection]**
@@ -130,8 +129,11 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need:
+- In order to run this project you need:
 
+- [git](https://git-scm.com/downloads): A tool for managing source code
+- [Visual Studio Code](https://code.visualstudio.com/): A source code editor
+- [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer): A simple web server utility for Visual Studio Code
 <!--
 Example command:
 
@@ -143,6 +145,8 @@ Example command:
 ### Setup
 
 Clone this repository to your desired folder:
+https://github.com/victor-chiemerie/Awesome-books.git
+
 
 <!--
 Example commands:
@@ -156,6 +160,8 @@ Example commands:
 ### Install
 
 Install this project with:
+- cd my-folder
+-  git clone https://github.com/victor-chiemerie/Awesome-books.git
 
 <!--
 Example command:
@@ -169,6 +175,9 @@ Example command:
 ### Usage
 
 To run the project, execute the following command:
+- Open the cloned folder on the VS code
+- Open the live server
+
 
 <!--
 Example command:
@@ -181,6 +190,8 @@ Example command:
 ### Run tests
 
 To run tests, run the following command:
+- To check for stylelint errors, run npx stylelint "**/*.css{css,scss}".
+- To check for javascript error, run npx eslint .
 
 <!--
 Example command:
@@ -193,6 +204,7 @@ Example command:
 ### Deployment
 
 You can deploy this project using:
+- Github pages
 
 <!--
 Example:
