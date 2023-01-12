@@ -32,6 +32,10 @@ menu {
   gap: 15px;
 }
 
+menu div {
+  cursor: pointer;
+}
+
 .date {
   display: flex;
   align-self: center;
@@ -66,6 +70,7 @@ button {
   border: var(--my-border);
   padding: 5px;
   box-shadow: 2px 2px black;
+  cursor: pointer;
 }
 
 .add_new {
