@@ -169,8 +169,6 @@ Example command:
   cd my-project
   npx install
 ```
-<<<<<<< HEAD
-=======
 --->
 
 ### Usage
@@ -201,7 +199,6 @@ Example command:
   bin/rails test test/models/article_test.rb
 ```
 --->
->>>>>>> 1746d6bde605bb2d2188e8431d4bdbb377364a5d
 
 ### Deployment
 
