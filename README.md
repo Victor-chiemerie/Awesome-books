@@ -230,7 +230,7 @@ Example:
 - Twitter: [@twitterhandle](https://twitter.com/VictorChiemer20)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/victor-chiemerie-460475246/)
 
- **Chukwuemeka Ochuba**
+ 👤**Chukwuemeka Ochuba**
 
 - GitHub: [@Donmark2k](https://github.com/Donmark2k)
 - Twitter: [@Donmark2k](https://twitter.com/donmark2k)
