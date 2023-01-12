@@ -7,19 +7,55 @@
 
 :root {
   --border: black;
-  --list-color: rgb(161, 160, 160);
+  --list-color: rgba(212, 209, 209, 0.884);
+  --my-border: 2px solid var(--border);
 }
 
 body {
-  margin-top: 20px;
+  margin: 5px;
   display: flex;
   flex-direction: column;
-  gap: 15px;
   align-items: center;
 }
 
+nav {
+  display: flex;
+  border: var(--my-border);
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+}
+
+menu {
+  display: flex;
+  gap: 15px;
+}
+
+menu div {
+  cursor: pointer;
+}
+
+.date {
+  display: flex;
+  align-self: center;
+  justify-content: flex-end;
+  margin-top: 5px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 13px;
+  margin-bottom: 15px;
+}
+
 ul {
-  border: 2px solid black;
+  border: var(--my-border);
   width: 100%;
 }
 
@@ -31,9 +67,14 @@ ul div {
 }
 
 button {
-  border: 2px solid black;
+  border: var(--my-border);
   padding: 5px;
   box-shadow: 2px 2px black;
+  cursor: pointer;
+}
+
+.add_new {
+  margin-bottom: 45px;
 }
 
 form {
@@ -52,16 +93,45 @@ input {
 }
 
 ul div:nth-child(odd) {
-  background: rgba(245, 239, 230, 1);
+  background: var(--list-color);
 }
 
-.line {
-  border: 1px solid black;
-  width: 100px;
+.contact {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.contact h2 {
+  margin-bottom: 30px;
+}
+
+.contact p {
+  margin-bottom: 20px;
+}
+
+.contact ul {
+  margin-left: 30px;
+  border: none;
+}
+
+.hidden {
+  display: none;
+}
+
+footer {
+  width: 100%;
+  border: var(--my-border);
+  padding: 10px;
 }
 
 @media only screen and (min-width: 786px) {
-  ul {
+  ul,
+  nav,
+  footer,
+  .date {
     width: 500px;
   }
 }

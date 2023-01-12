@@ -67,28 +67,30 @@ After you're finished please remove all the comments and instructions!
 
 ## 🛠 Built With <a name="built-with"></a>
 
-### Tech Stack <a name="tech-stack"></a>
+<!-- ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
+> Describe the tech stack and include only the relevant sections that apply to your project. -->
 
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="#">HTML</a></li>
+    <li><a href="#">CSS</a></li>
+    <li><a href="#">JavaScript</a></li>
   </ul>
 </details>
 
-<details>
+<!-- <details>
   <summary>Server</summary>
   <ul>
     <li><a href="https://expressjs.com/">Express.js</a></li>
   </ul>
-</details>
+</details> -->
 
 <details>
 <summary>Database</summary>
   <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li><a href="#">LocalStorage</a></li>
   </ul>
 </details>
 
@@ -169,8 +171,6 @@ Example command:
   cd my-project
   npx install
 ```
-<<<<<<< HEAD
-=======
 --->
 
 ### Usage
@@ -201,7 +201,6 @@ Example command:
   bin/rails test test/models/article_test.rb
 ```
 --->
->>>>>>> 1746d6bde605bb2d2188e8431d4bdbb377364a5d
 
 ### Deployment
 
@@ -227,13 +226,13 @@ Example:
 
 > Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 **Victor Chiemerie**
 
 - GitHub: [@githubhandle](https://github.com/Victor-chiemerie)
 - Twitter: [@twitterhandle](https://twitter.com/VictorChiemer20)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/victor-chiemerie-460475246/)
 
- **Author 2**
+ 👤**Chukwuemeka Ochuba**
 
 - GitHub: [@Donmark2k](https://github.com/Donmark2k)
 - Twitter: [@Donmark2k](https://twitter.com/donmark2k)
